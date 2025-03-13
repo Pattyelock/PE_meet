@@ -1,13 +1,12 @@
-// Temporary change for redeployment
-console.log("Force redeploy");
-
+import React from "react";
+import "./App.css";
 
 function App() {
   return (
-    <div>
-      <h1>Hello, Meet App!</h1>
+    <div className="App">
+      <h1>Welcome to My Custom Vite + React App!</h1>
     </div>
   );
-  
 }
+
 export default App;
